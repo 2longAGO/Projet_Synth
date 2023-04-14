@@ -3,7 +3,7 @@ import java.util.*;
 import java.security.SecureRandom;
 import org.apache.commons.lang3.RandomStringUtils;
 
-public class PasswordCenerator { 
+public class PasswordGenerator { 
     public String generateCommonLangPassword() {
         String upperCaseLetters = RandomStringUtils.random(2, 65, 90, true, true, new SecureRandom());
         String lowerCaseLetters = RandomStringUtils.random(2, 97, 122, true, true, new SecureRandom());
